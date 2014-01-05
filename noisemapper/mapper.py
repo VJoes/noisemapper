@@ -7,10 +7,6 @@ from numpy import *
 from error import *
 from client import *
 from sampler import *
-from nsobject import *
-
-from Queue import  Queue
-from threading import Event
 
 
 class NoiseMapper(Thread):
